@@ -1,0 +1,22 @@
+Aug 11 17:01:01 ubuntu-server sshd[1101]: Accepted publickey for user from 198.51.100.12 port 22 ssh2: RSA SHA256:xxxxxxxx
+Aug 11 17:01:01 ubuntu-server sshd[1101]: pam_unix(sshd:session): session opened for user by (uid=0)
+Aug 11 17:01:05 ubuntu-server sudo:     user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 11 17:01:05 ubuntu-server sudo: pam_unix(sudo:session): session opened for user by user(uid=0)
+Aug 11 17:15:12 ubuntu-server sshd[1251]: Failed password for invalid user admin from 203.0.113.55 port 48122 ssh2
+Aug 11 17:15:14 ubuntu-server sshd[1251]: Failed password for invalid user admin from 203.0.113.55 port 48122 ssh2
+Aug 11 17:15:16 ubuntu-server sshd[1251]: Failed password for invalid user admin from 203.0.113.55 port 48122 ssh2
+Aug 11 17:15:18 ubuntu-server sshd[1251]: Failed password for invalid user admin from 203.0.113.55 port 48122 ssh2
+Aug 11 17:15:20 ubuntu-server sshd[1251]: Failed password for invalid user root from 203.0.113.55 port 48122 ssh2
+Aug 11 17:15:22 ubuntu-server sshd[1251]: Failed password for invalid user root from 203.0.113.55 port 48122 ssh2
+Aug 11 17:15:24 ubuntu-server sshd[1251]: Failed password for invalid user user from 203.0.113.55 port 48122 ssh2
+Aug 11 17:15:26 ubuntu-server sshd[1251]: Accepted password for user from 203.0.113.55 port 48122 ssh2
+Aug 11 17:15:26 ubuntu-server sshd[1251]: pam_unix(sshd:session): session opened for user by (uid=0)
+Aug 11 17:20:01 ubuntu-server CRON[1301]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 11 17:20:01 ubuntu-server CRON[1301]: pam_unix(cron:session): session closed for user root
+Aug 11 17:30:45 ubuntu-server sshd[1455]: Disconnected from authenticating user user 192.0.2.147 port 55934 [preauth]
+Aug 11 17:30:47 ubuntu-server sshd[1456]: Invalid user guest from 192.0.2.147 port 55940
+Aug 11 17:30:47 ubuntu-server sshd[1456]: pam_unix(sshd:auth): check pass; user unknown
+Aug 11 17:30:47 ubuntu-server sshd[1456]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.147
+Aug 11 17:30:49 ubuntu-server sshd[1456]: Failed password for invalid user guest from 192.0.2.147 port 55940 ssh2
+Aug 11 17:35:01 ubuntu-server sshd[1500]: Received disconnect from 198.18.0.1 port 12345:11: Bye Bye [preauth]
+Aug 11 17:35:01 ubuntu-server sshd[1500]: Disconnected from authenticating user user 198.18.0.1 port 12345 [preauth]
